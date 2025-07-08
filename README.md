@@ -17,7 +17,6 @@ In terminal:<br />
 LS function:
 
 SEND function:
-Functionality of the send function corresponds to the description in the document. However, I was not able to receive ACK message on the client side to confirm delivery of the message.
 
 REMOVE function:
 
