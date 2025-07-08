@@ -1,0 +1,162 @@
+[dl123@lx1 solution]$ ifconfig
+ens192: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.16.5.11  netmask 255.255.255.0  broadcast 172.16.5.255
+        inet6 fe80::250:56ff:fe9d:6b93  prefixlen 64  scopeid 0x20<link>
+        ether 00:50:56:9d:6b:93  txqueuelen 1000  (Ethernet)
+        RX packets 211773220  bytes 1298555237298 (1.1 TiB)
+        RX errors 0  dropped 696  overruns 0  frame 0
+        TX packets 172934158  bytes 216256559247 (201.4 GiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 538584  bytes 506124117 (482.6 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 538584  bytes 506124117 (482.6 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+[dl123@lx1 solution]$ ./client -address 172.16.5.11 -port 48856
+**************************************************************
+Successfully connect to the server! Please type your command
+**************************************************************
+$ ls
+ - server backup folder is empty.
+$ send lab2.pdf
+ - filesize:354069
+ - TCP port:43689
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 3000
+Buffer size: 69
+Buffer size: 0
+Total Segment Number is: 120
+ - file transmission is completed.
+$ rename lab2.pdf lab2_2025.pdf
+ -file has been renamed.
+$ ls
+ - lab2_2025.pdf
+$ remove lab2_2025.pdf
+ - file is removed.
+$ ls
+ - server backup folder is empty.
+$ shutdown
+ - server is shutdown.
+$ quit
+[dl123@lx1 solution]$ 

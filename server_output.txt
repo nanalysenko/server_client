@@ -1,0 +1,294 @@
+[dl123@lx1 solution]$ ./server -p 48856
+**************************************************************
+This is the server of IERG3310 Lab2 from : 11551xxxxx (your SID)
+**************************************************************
+Waiting UDP command @ port number: 48856
+[CMD RECEIVED]: CMD_LS
+ - server backup folder is empty.
+**************************************************************
+This is the server of IERG3310 Lab2 from : 11551xxxxx (your SID)
+**************************************************************
+Waiting UDP command @ port number: 48856
+[CMD RECEIVED]: CMD_SEND
+ - filename: lab2.pdf
+ - filesize: 354069
+ - listen @: 43689
+ - connected with client.
+3000
+ - total bytes received: 3000
+3000
+ - total bytes received: 6000
+3000
+ - total bytes received: 9000
+3000
+ - total bytes received: 12000
+3000
+ - total bytes received: 15000
+3000
+ - total bytes received: 18000
+3000
+ - total bytes received: 21000
+3000
+ - total bytes received: 24000
+3000
+ - total bytes received: 27000
+3000
+ - total bytes received: 30000
+3000
+ - total bytes received: 33000
+3000
+ - total bytes received: 36000
+3000
+ - total bytes received: 39000
+3000
+ - total bytes received: 42000
+3000
+ - total bytes received: 45000
+3000
+ - total bytes received: 48000
+3000
+ - total bytes received: 51000
+3000
+ - total bytes received: 54000
+3000
+ - total bytes received: 57000
+3000
+ - total bytes received: 60000
+3000
+ - total bytes received: 63000
+3000
+ - total bytes received: 66000
+3000
+ - total bytes received: 69000
+3000
+ - total bytes received: 72000
+3000
+ - total bytes received: 75000
+3000
+ - total bytes received: 78000
+3000
+ - total bytes received: 81000
+3000
+ - total bytes received: 84000
+3000
+ - total bytes received: 87000
+3000
+ - total bytes received: 90000
+3000
+ - total bytes received: 93000
+3000
+ - total bytes received: 96000
+3000
+ - total bytes received: 99000
+3000
+ - total bytes received: 102000
+3000
+ - total bytes received: 105000
+3000
+ - total bytes received: 108000
+3000
+ - total bytes received: 111000
+3000
+ - total bytes received: 114000
+3000
+ - total bytes received: 117000
+3000
+ - total bytes received: 120000
+3000
+ - total bytes received: 123000
+3000
+ - total bytes received: 126000
+3000
+ - total bytes received: 129000
+3000
+ - total bytes received: 132000
+3000
+ - total bytes received: 135000
+3000
+ - total bytes received: 138000
+3000
+ - total bytes received: 141000
+3000
+ - total bytes received: 144000
+3000
+ - total bytes received: 147000
+3000
+ - total bytes received: 150000
+3000
+ - total bytes received: 153000
+3000
+ - total bytes received: 156000
+3000
+ - total bytes received: 159000
+3000
+ - total bytes received: 162000
+3000
+ - total bytes received: 165000
+3000
+ - total bytes received: 168000
+3000
+ - total bytes received: 171000
+3000
+ - total bytes received: 174000
+3000
+ - total bytes received: 177000
+3000
+ - total bytes received: 180000
+3000
+ - total bytes received: 183000
+3000
+ - total bytes received: 186000
+3000
+ - total bytes received: 189000
+3000
+ - total bytes received: 192000
+3000
+ - total bytes received: 195000
+3000
+ - total bytes received: 198000
+3000
+ - total bytes received: 201000
+3000
+ - total bytes received: 204000
+3000
+ - total bytes received: 207000
+3000
+ - total bytes received: 210000
+3000
+ - total bytes received: 213000
+3000
+ - total bytes received: 216000
+3000
+ - total bytes received: 219000
+3000
+ - total bytes received: 222000
+1120
+ - total bytes received: 223120
+3000
+ - total bytes received: 226120
+3000
+ - total bytes received: 229120
+3000
+ - total bytes received: 232120
+3000
+ - total bytes received: 235120
+3000
+ - total bytes received: 238120
+3000
+ - total bytes received: 241120
+3000
+ - total bytes received: 244120
+3000
+ - total bytes received: 247120
+3000
+ - total bytes received: 250120
+3000
+ - total bytes received: 253120
+3000
+ - total bytes received: 256120
+3000
+ - total bytes received: 259120
+3000
+ - total bytes received: 262120
+3000
+ - total bytes received: 265120
+3000
+ - total bytes received: 268120
+3000
+ - total bytes received: 271120
+3000
+ - total bytes received: 274120
+3000
+ - total bytes received: 277120
+3000
+ - total bytes received: 280120
+3000
+ - total bytes received: 283120
+3000
+ - total bytes received: 286120
+3000
+ - total bytes received: 289120
+3000
+ - total bytes received: 292120
+3000
+ - total bytes received: 295120
+3000
+ - total bytes received: 298120
+3000
+ - total bytes received: 301120
+3000
+ - total bytes received: 304120
+3000
+ - total bytes received: 307120
+3000
+ - total bytes received: 310120
+3000
+ - total bytes received: 313120
+3000
+ - total bytes received: 316120
+3000
+ - total bytes received: 319120
+3000
+ - total bytes received: 322120
+3000
+ - total bytes received: 325120
+3000
+ - total bytes received: 328120
+3000
+ - total bytes received: 331120
+3000
+ - total bytes received: 334120
+3000
+ - total bytes received: 337120
+3000
+ - total bytes received: 340120
+3000
+ - total bytes received: 343120
+3000
+ - total bytes received: 346120
+3000
+ - total bytes received: 349120
+3000
+ - total bytes received: 352120
+1949
+ - total bytes received: 354069
+ - lab2.pdf has been received.
+ - send acknowledgemet.
+**************************************************************
+This is the server of IERG3310 Lab2 from : 11551xxxxx (your SID)
+**************************************************************
+Waiting UDP command @ port number: 48856
+[CMD RECEIVED]: CMD_RENAME
+**************************************************************
+This is the server of IERG3310 Lab2 from : 11551xxxxx (your SID)
+**************************************************************
+Waiting UDP command @ port number: 48856
+[CMD RECEIVED]: CMD_RENAME
+ -the file has been renamed to lab2_2025.pdf.
+ -send acknowledgement
+**************************************************************
+This is the server of IERG3310 Lab2 from : 11551xxxxx (your SID)
+**************************************************************
+Waiting UDP command @ port number: 48856
+[CMD RECEIVED]: CMD_LS
+ - lab2_2025.pdf
+**************************************************************
+This is the server of IERG3310 Lab2 from : 11551xxxxx (your SID)
+**************************************************************
+Waiting UDP command @ port number: 48856
+[CMD RECEIVED]: CMD_REMOVE
+ - ./backup/lab2_2025.pdf has been removed.
+ - send acknowledgemet.
+**************************************************************
+This is the server of IERG3310 Lab2 from : 11551xxxxx (your SID)
+**************************************************************
+Waiting UDP command @ port number: 48856
+[CMD RECEIVED]: CMD_LS
+ - server backup folder is empty.
+**************************************************************
+This is the server of IERG3310 Lab2 from : 11551xxxxx (your SID)
+**************************************************************
+Waiting UDP command @ port number: 48856
+[CMD RECEIVED]: CMD_SHUTDOWN
+ - send acknowledgemet.
+[dl123@lx1 solution]$ 
